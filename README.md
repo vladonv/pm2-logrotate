@@ -40,9 +40,9 @@ After having installed the module, you have to type :
 ### How to set these values ?
 
  After having installed the module you have to type :
-`pm2 set pm2-logrotate:<param> <value>`
+`pm2 set @vladonv/pm2-logrotate:<param> <value>`
 
 e.g:
-- `pm2 set pm2-logrotate:max_size 1K` (1KB)
-- `pm2 set pm2-logrotate:compress true` (compress logs when rotated)
-- `pm2 set pm2-logrotate:rotateInterval '*/1 * * * *'` (force rotate every minute)
+- `pm2 set @vladonv/pm2-logrotate:max_size 1K` (1KB)
+- `pm2 set @vladonv/pm2-logrotate:compress true` (compress logs when rotated)
+- `pm2 set @vladonv/pm2-logrotate:rotateInterval '*/1 * * * *'` (force rotate every minute)
